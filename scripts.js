@@ -98,6 +98,7 @@ function resetFun(){
     childrenMassage.innerHTML = '';
     progressBar.style.display = 'none';
     childrenBtn.style.display = 'none';
+    saveBtn.style.display='none';
 }
 
 function calculatLove() {
