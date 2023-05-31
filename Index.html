@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Meter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Love Meter Developed by <Span>Team JR</Span></h1>
+        <div class="main-content">
+            <h2 id="bothName">Enter Your & Your Partner Name</h2>
+            <div class="input-filed">
+                <div class="partner partner1">
+                    <input type="text" class="name" id="name1" placeholder="Your Name Here..." autofocus>
+                </div>
+                <div id="progress-bar" class="heart" style="display: none;"></div>
+                <div class="partner partner2">
+                    <input type="text" class="name" id="name2" placeholder="Your Partner Name Here..." autofocus>
+                </div>
+            </div>
+            <!-- <div id="progress-bar">100%</div> -->
+            <div class="btn-group">
+                <button class="btn" id="resetBtn">Reset</button>
+                <button class="btn" id="calculatBtn">Calculat Love 💖</button>
+                <button class="btn" id="childrenBtn" style="display: none;">Chlidren 🐣</button>
+                <button class="btn" id="saveBtn" style="display: none;">Save</button>
+            </div>
+            <div class="massage-group">
+                <h2 id="children"></h2>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="scripts.js"></script>
+</html>
