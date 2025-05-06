@@ -79,6 +79,13 @@ let List = [
         Name2: ['Vishnu', 'vishnu', 'Shree Hari', 'shree Hari'],
         Love: '100',
         childNumber: '21'
+    },
+
+    {
+        Name1: ['Jigyashu', 'jigyashu',],
+        Name2: ['Khushi', 'khushi'],
+        Love: '100',
+        childNumber: '21'
     }
 ];
 
